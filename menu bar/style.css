@@ -1,0 +1,50 @@
+body {
+  background-image: url("bac188.jpg");
+}
+.menu {
+  list-style-type: none;
+  overflow: auto;
+  background-color: #8fbc8f;
+  opacity: 0.7;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 3px double #2f4f4f;
+}
+.menu li {
+  display: inline;
+  direction: rtl;
+  padding: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.menu li a {
+  text-decoration: none;
+  color: #2f4f4f;
+  padding: 20px;
+}
+.menu li :hover {
+  background-color: #add8e6;
+  border-radius: 50px;
+  box-shadow: 2px 5px 40px #708090;
+}
+.menu1 {
+  list-style-type: none;
+  overflow: auto;
+  padding-left: 0px;
+  position: absolute;
+  background-color: #008080;
+  border-radius: 40px 10px 40px 10px;
+  border: 5px groove #2f4f4f;
+  opacity: 0.7;
+  display: none;
+}
+.menu1 li {
+  float: none;
+  display: block;
+}
+.menu1 li a {
+  color: black;
+}
+.menu :hover .menu1 {
+  display: block;
+}
